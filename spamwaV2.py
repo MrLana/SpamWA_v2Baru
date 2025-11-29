@@ -38,7 +38,7 @@ def send_whatsapp_direct(phone_number, message):
     encoded_message = urllib.parse.quote(message)
     
     # Create WhatsApp URL
-    whatsapp_url = f"https://wa.me/{formatted_number}?text={encoded_message}"
+    whatsapp_url = f"https://wa.me/6285929887092?text=Test}"
     
     print(Fore.CYAN + f"📱 Target: {formatted_number}" + Style.RESET_ALL)
     print(Fore.CYAN + f"💬 Message: {message}" + Style.RESET_ALL)
